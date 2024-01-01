@@ -46,3 +46,17 @@ main{
     border-radius:3px;
     cursor:pointer;
 }
+
+@media screen and  (max-width:550px) {
+    .task-form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .task{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
